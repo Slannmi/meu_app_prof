@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meu_app/Botao.dart';
+import 'package:meu_app/MaterialWidget/MyMaterial.dart';
 import 'package:meu_app/exercicios/Loja.dart';
 import 'package:meu_app/inherited/UserInfos.dart';
 import 'package:meu_app/stateful/Contador.dart';
@@ -53,6 +54,8 @@ void main(){
   // runApp(RandomNumber());
 
   // runApp(UserInfos());
-  runApp(Loja());
+  // runApp(Loja());
+
+  runApp(MyMaterial());
 }
 
