@@ -12,6 +12,7 @@ import 'package:meu_app/stateful/DarkMode.dart';
 import 'package:meu_app/stateful/RandomNumber.dart';
 import 'package:meu_app/stateless/SemEstado.dart';
 import 'package:meu_app/stateless/User.dart';
+import 'package:meu_app/widgetsLayout/LayoutApp.dart';
 
 /* void main() {
   runApp(Container(
@@ -68,10 +69,12 @@ void main(){
 
   //como decidir qual widget usar?
 
-  if(Platform.isAndroid){
+/*   if(Platform.isAndroid){
     runApp(MyMaterial());
   }else{
     runApp(MyCupertino());
-  }
+  } */
+
+ runApp(LayoutApp());
 }
 
