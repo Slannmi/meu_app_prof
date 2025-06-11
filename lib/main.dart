@@ -5,6 +5,9 @@ import 'package:meu_app/Botao.dart';
 import 'package:meu_app/Debug.dart';
 import 'package:meu_app/MaterialWidget/MyMaterial.dart';
 import 'package:meu_app/cupertino/MyCupertino.dart';
+import 'package:meu_app/dartAvancado/future/login.dart';
+import 'package:meu_app/dartAvancado/isolate/product_parse.dart';
+import 'package:meu_app/dartAvancado/stream/busca_com_stream.dart';
 import 'package:meu_app/exercicios/ExercicioMaterial.dart';
 import 'package:meu_app/exercicios/Loja.dart';
 import 'package:meu_app/inherited/UserInfos.dart';
@@ -87,6 +90,11 @@ void main(){
 
   //navegando entre telas
   // runApp(MaterialApp(home: Tela1(),));
-  runApp(Routes());
+  // runApp(Routes());
+
+  // runApp(MaterialApp(home: Login()));
+  // runApp(MaterialApp(home: BuscaComStream()));
+  runApp(MaterialApp(home: ProductParse()));
+
 }
 
